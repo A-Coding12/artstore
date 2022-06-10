@@ -4,10 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <title>Manage</title>
 </head>
 <body>
-    <H1>hello world</H1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <!--- Header  start --->
+    <header class="header">
+        <img src="/images/logo.svg" alt="Manage" class="logo">
+        <nav class="nav_area">
+            <ul class="menu">
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Community</a></li>
+            </ul>
+        </nav>
+        <button class="btn" onclick= showMsg()><a href="#">Get Started</a></button>
+    </header>
+    <!--- Header  end --->
+
+    <!--- Main  start --->
+    <section class="main">
+        <div class="intro">
+            <h1>Bring everyone together to build better products.</h1>
+            <p>
+                Manage makes it simple for software teams to plan day-to-day tasks while
+                keeping the larger team goals in view.
+            </p>
+            <button class="btn" onclick= showMsg()><a href="#">Get Started</a></button>
+        </div>
+        
+        <div class="intro_logo">
+            <img src="/images/illustration-intro.svg" alt="Manage intro">
+        </div>
+    </section>
+    <!--- Main  end --->
+
+    <!--- Features  start --->
+    <section class="Features">
+        <div class="Features_intro">
+            <h1>What's different about Manage?</h1>
+            <p>
+                Manage is built for software teams of all sizes.
+                Whether you're a small team or a large enterprise,
+                we'll help you get more done with less time.
+            </p>
+        </div>
+
+        <div class="Features_item">
+            <div class="item">
+                <span>01</span>
+                <h2>Track company-wide progress</h2>
+                <p>
+                    see how your day-to-day tasks fit into the wider vision
+                    go from tracking progress of the milestone level all the
+                    way done to the smallest details.Never lose sight of the bigger picture again.
+                </p>
+            </div>
+
+            <div class="item">
+                <span>02</span>
+                <h2>Advanced Built-in reports</h2>
+                <p>
+                    set internal delivery estimates and track progress towards
+                    company goals.Our customisable Dashboard helps you built out 
+                    the reports you need to keep your team on track.
+                </p>
+            </div>
+
+            <div class="item">
+                <span>03</span>
+                <h2>Everything you need in one place</h2>
+                <p>
+                    Manage is built for software teams of all sizes.
+                    Whether you're a small team or a large enterprise,
+                    we'll help you get more done with less time.
+                </p>
+            </div> 
+        </div>
+    </section>
+    <!--- Features  end --->
+
+    <!--- avatars  start --->
+    <section class="personnes">
+        <img src="/images/bg-tablet-pattern.svg" alt="" class="bg">
+        <h1>What they've said</h1>
+        <div class="avatars">
+            <div class="Avatar">
+                <img src="/images/avatar-anisha.png" alt="Anisha Li">
+                <h3>Anisha Li</h3>
+                <p>
+                    "I've been using Manage for a few months now and it's really great.
+                    It's really great because it's easy to use and it's really easy to get started.
+                </p>
+            </div>
+
+            <div class="Avatar">
+                <img src="/images/avatar-ali.png" alt="Ali Bravo">
+                <h3>Ali Bravo</h3>
+                <p>
+                    "we have been using Manage for a few months now and it's really great.
+                    It's really great because it's easy to use and it's really easy to get started."
+                </p>
+            </div>
+
+            <div class="Avatar">
+                <img src="/images/avatar-richard.png" alt="Richard Watts">
+                <h3>Richard Watts</h3>
+                <p>
+                    "we have been using Manage for a few months now and it's really great.
+                    It's really great because it's easy to use and it's really easy to get started."
+                </p>
+            </div>
+        </div>
+        <button class="btn" onclick= showMsg()><a href="#">Get Started</a></button>
+    </section>
+    <!--- avatars  end --->
+
+    <!--- Footer  start --->
+    <section class="footer_msg">
+        <div class="msg">
+            <h1>Simplify how your Team works today.</h1>
+        </div>
+        <button class="btn" onclick= showMsg()><a href="#">Get Started</a></button>
+    </section>
+
+    <section class="footer">
+        <div class="footer_logo">
+            <img src="/images/logo.svg" alt="Manage" class="logo">
+            <div class="footer_social">
+                <a href=""><img src="/images/icon-facebook.svg" alt="facebook"></a>
+                <a href=""><img src="/images/icon-youtube.svg" alt="youtube"></a>
+                <a href=""><img src="/images/icon-twitter.svg" alt="twitter"></a>
+                <a href=""><img src="/images/icon-pinterest.svg" alt="pinterest"></a>
+                <a href=""><img src="/images/icon-instagram.svg" alt="instagram"></a>
+            </div>
+        </div>
+
+        <div class="footer_menu">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_menu_2">
+            <ul class="menu">
+                <li><a href="">Careers</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <form action="post">
+                <input type="email" placeholder="Your Email">
+                <button class="btn" onclick= showMsg()>Go</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <!--- Footer  end --->
+    
+    <script src="/JavaScript/script.js"></script>
 </body>
 </html>
